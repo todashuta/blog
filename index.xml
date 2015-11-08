@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shuta&#39;s blog</title>
+    <title>Shuta&#39;s Diary</title>
     <link>https://todashuta.github.io/blog/</link>
-    <description>Recent content on shuta&#39;s blog</description>
+    <description>Recent content on Shuta&#39;s Diary</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
     <lastBuildDate>Sun, 08 Nov 2015 17:00:00 +0900</lastBuildDate>
     <atom:link href="https://todashuta.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
