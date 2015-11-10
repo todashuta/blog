@@ -22,6 +22,18 @@
 
   
   <link href="https://todashuta.github.io/blog/post/index.xml" rel="alternate" type="application/rss+xml" title="Shuta&#39;s Diary" />
+  <script>
+    (function(window, document) {
+      'use strict';
+      window.addEventListener('DOMContentLoaded', function() {
+        if ( document.location.protocol === 'http:' ) {
+          if ( document.location.hostname === 'localhost' ) { return; };
+          if ( document.location.hostname === '127.0.0.1' ) { return; };
+          document.location.protocol = 'https:';
+        };
+      }, false);
+    })(window, document);
+  </script>
 </head>
 
 <body class="">
