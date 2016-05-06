@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Shuta&#39;s Diary</title>
-    <link>http://localhost:1313/blog/post/</link>
-    <description>Recent content in Posts on Shuta&#39;s Diary</description>
+    <title>Development on Shuta&#39;s Diary</title>
+    <link>http://localhost:1313/blog/categories/development/</link>
+    <description>Recent content in Development on Shuta&#39;s Diary</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 06 May 2016 17:01:56 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>GitのアレをMercurialでやる</title>
@@ -41,30 +41,6 @@
 &lt;p&gt;サブコマンドcommitに&lt;code&gt;--interactive&lt;/code&gt;オプションを追加することで可能。&lt;/p&gt;
 
 &lt;p&gt;※古いバージョンならrecord extensionでやる必要がある&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>http://localhost:1313/blog/2015/11/08/hello-world/</link>
-      <pubDate>Sun, 08 Nov 2015 17:00:00 +0900</pubDate>
-      
-      <guid>http://localhost:1313/blog/2015/11/08/hello-world/</guid>
-      <description>&lt;p&gt;Hello World!&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;(function() {
-  &#39;use strict&#39;;
-  console.log(&#39;code block&#39;);
-})();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;foo&lt;/li&gt;
-&lt;li&gt;bar&lt;/li&gt;
-&lt;li&gt;baz&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;hugo に移行した。&lt;/p&gt;
 </description>
     </item>
     
