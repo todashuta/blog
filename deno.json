@@ -7,7 +7,7 @@
   "tasks": {
     "lume": "echo \"import 'lume/cli.ts'\" | deno run -A -",
     "build": "deno task lume",
-    "serve": "deno task lume -s --dest=./_site --location=http://localhost:3000/",
+    "serve": "deno task lume -s --port=3000 --dest=./_site --location=http://localhost:3000/",
     "cms": "deno task lume cms"
   },
   "compilerOptions": {
