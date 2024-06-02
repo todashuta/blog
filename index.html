@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Shuta's Diary</title>
+
+    <meta name="supported-color-schemes" content="light dark">
+    <meta name="theme-color" content="hsl(220, 20%, 100%)" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="hsl(220, 20%, 10%)" media="(prefers-color-scheme: dark)">
+    
+    <link rel="stylesheet" href="/blog/pagefind/pagefind-ui.css"><link rel="stylesheet" href="/blog/styles.css">
+    <link rel="alternate" href="/blog/feed.xml" type="application/atom+xml" title="Shuta's Diary">
+    <link rel="alternate" href="/blog/feed.json" type="application/json" title="Shuta's Diary">
+    <link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon.png">
+    <link rel="canonical" href="https://todashuta.github.io/blog/">
+    <script src="/blog/js/main.js" type="module"></script>
+    
+  <meta property="og:type" content="website">
+<meta property="og:site_name" content="Shuta's Diary">
+<meta property="og:locale" content="ja">
+<meta property="og:title" content="Home">
+<meta property="og:description" content="Shuta's Blog">
+<meta property="og:url" content="https://todashuta.github.io/blog/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@todashuta">
+<meta name="description" content="Shuta's Blog">
+<script type="text/javascript" src="/blog/pagefind/pagefind-ui.js"></script><script type="text/javascript">window.addEventListener('DOMContentLoaded',()=>{new PagefindUI({"element":"#search","showImages":false,"excerptLength":0,"showEmptyFilters":true,"showSubResults":false,"resetStyles":true,"bundlePath":"/blog/pagefind/","baseUrl":"/blog/"});});</script></head>
+  <body>
+    <nav class="navbar">
+      <a href="/blog/" class="navbar-home">
+        
+          <strong>Shuta's Diary</strong>
+        
+      </a>
+
+      <ul class="navbar-links">
+        <li>
+          <a href="/blog/archive/">
+            Archive
+          </a>
+        </li>
+      
+      <li>
+        <script>
+          let theme = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light");
+          document.documentElement.dataset.theme = theme;
+          function changeTheme() {
+            theme = theme === "dark" ? "light" : "dark";
+            localStorage.setItem("theme", theme);
+            document.documentElement.dataset.theme = theme;
+          }
+        </script>
+        <button class="button" onclick="changeTheme()">
+          <span class="icon">◐</span>
+        </button>
+      </li>
+      </ul>
+    </nav>
+
+    <main class="body-home">
+      <header class="page-header">
+  <h1 class="page-title">Welcome to Shuta's Blog!</h1>
+
+  <div class="search" id="search"></div>
+</header>
+
+<section class="postList">
+  
+  <article class="post">
+    <header class="post-header">
+      <h2 class="post-title">
+        <a href="/blog/posts/gatsby/">
+          Hello Gatsby!
+        </a>
+      </h2>
+
+      <div class="post-details">
+  
+
+  <p>
+    <time datetime="2020-08-30 07:35:00">
+      August 30th, 2020
+    </time>
+  </p>
+
+  <p>1 min read</p>
+
+  <div class="post-tags">
+    
+  </div>
+</div>
+
+    </header>
+
+    <div class="post-excerpt body">
+      <p>Gatsbyに移行した。</p>
+    </div>
+
+    <a href="/blog/posts/gatsby/" class="post-link">
+      Continue reading →
+    </a>
+  </article>
+
+  <article class="post">
+    <header class="post-header">
+      <h2 class="post-title">
+        <a href="/blog/posts/study-mercurial/">
+          GitのアレをMercurialでやる
+        </a>
+      </h2>
+
+      <div class="post-details">
+  
+
+  <p>
+    <time datetime="2016-05-06 09:00:00">
+      May 6th, 2016
+    </time>
+  </p>
+
+  <p>1 min read</p>
+
+  <div class="post-tags">
+    
+  </div>
+</div>
+
+    </header>
+
+    <div class="post-excerpt body">
+      <p>Mercurial (hg) 勉強メモ</p>
+<h2><code>$ git add filename; git commit</code> をMercurialで</h2>
+<p>特定のファイルだけステージしてコミットしたいとき。</p>
+<pre class="language-shell" tabindex="0"><code class="language-shell">$ hg commit filename
+</code></pre>
+<p>サブコマンドcommitの引数にファイル名を与えることで可能。<br>
+(git add filename に相当する操作はないっぽい)</p>
+<hr>
+<h2><code>$ git add -p filename</code> をMercurialで</h2>
+<p>ファイルの一部分だけステージしたいとき (partial staging)</p>
+<pre class="language-shell" tabindex="0"><code class="language-shell">$ hg commit --interactive filename
+</code></pre>
+<p>サブコマンドcommitに<code>--interactive</code>オプションを追加することで可能。<br>
+※古いバージョンならrecord extensionでやる必要がある</p>
+    </div>
+
+    <a href="/blog/posts/study-mercurial/" class="post-link">
+      Continue reading →
+    </a>
+  </article>
+
+  <article class="post">
+    <header class="post-header">
+      <h2 class="post-title">
+        <a href="/blog/posts/hello-world/">
+          Hello World!
+        </a>
+      </h2>
+
+      <div class="post-details">
+  
+
+  <p>
+    <time datetime="2015-11-08 09:00:00">
+      November 8th, 2015
+    </time>
+  </p>
+
+  <p>1 min read</p>
+
+  <div class="post-tags">
+    
+  </div>
+</div>
+
+    </header>
+
+    <div class="post-excerpt body">
+      <p>Hello World!</p>
+<pre class="language-javascript" tabindex="0"><code class="language-javascript"><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token string">'use strict'</span><span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'code block'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<ul>
+<li>foo</li>
+<li>bar</li>
+<li>baz</li>
+</ul>
+<p>hugoに移行した。</p>
+    </div>
+
+    <a href="/blog/posts/hello-world/" class="post-link">
+      Continue reading →
+    </a>
+  </article>
+
+</section>
+
+<hr>
+
+<p>More posts can be found in <a href="/blog/archive/">the archive</a>.</p>
+
+    </main>
+
+    <!-- Current page: / -->
+  
+
+</body></html>

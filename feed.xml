@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+  <channel>
+    <title>Shuta's Diary</title>
+    <link>https://todashuta.github.io/blog/</link>
+    <atom:link href="https://todashuta.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Shuta's Blog</description>
+    <lastBuildDate>Sun, 02 Jun 2024 06:02:59 GMT</lastBuildDate>
+    <language>en</language>
+    <generator>Lume v2.2.0</generator>
+    <item>
+      <title>Hello Gatsby!</title>
+      <link>https://todashuta.github.io/blog/posts/gatsby/</link>
+      <guid isPermaLink="false">https://todashuta.github.io/blog/posts/gatsby/</guid>
+      <description>Gatsbyに移行した。</description>
+      <content:encoded>
+        <![CDATA[<p>Gatsbyに移行した。</p>
+        ]]>
+      </content:encoded>
+      <pubDate>Sat, 29 Aug 2020 22:35:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitのアレをMercurialでやる</title>
+      <link>https://todashuta.github.io/blog/posts/study-mercurial/</link>
+      <guid isPermaLink="false">https://todashuta.github.io/blog/posts/study-mercurial/</guid>
+      <description>Mercurial (hg) 勉強メモ</description>
+      <content:encoded>
+        <![CDATA[<p>Mercurial (hg) 勉強メモ</p>
+        <h2 id="%24-git-add-filename%3B-git-commit-%E3%82%92mercurial%E3%81%A7" tabindex="-1"><a href="https://todashuta.github.io/blog/posts/study-mercurial/#%24-git-add-filename%3B-git-commit-%E3%82%92mercurial%E3%81%A7" class="header-anchor"><code>$ git add filename; git commit</code> をMercurialで</a></h2>
+        <p>特定のファイルだけステージしてコミットしたいとき。</p>
+        <pre><code class="language-shell">$ hg commit filename
+        </code></pre>
+        <p>サブコマンドcommitの引数にファイル名を与えることで可能。<br>
+        (git add filename に相当する操作はないっぽい)</p>
+        <hr>
+        <h2 id="%24-git-add--p-filename-%E3%82%92mercurial%E3%81%A7" tabindex="-1"><a href="https://todashuta.github.io/blog/posts/study-mercurial/#%24-git-add--p-filename-%E3%82%92mercurial%E3%81%A7" class="header-anchor"><code>$ git add -p filename</code> をMercurialで</a></h2>
+        <p>ファイルの一部分だけステージしたいとき (partial staging)</p>
+        <pre><code class="language-shell">$ hg commit --interactive filename
+        </code></pre>
+        <p>サブコマンドcommitに<code>--interactive</code>オプションを追加することで可能。<br>
+        ※古いバージョンならrecord extensionでやる必要がある</p>
+        ]]>
+      </content:encoded>
+      <pubDate>Fri, 06 May 2016 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hello World!</title>
+      <link>https://todashuta.github.io/blog/posts/hello-world/</link>
+      <guid isPermaLink="false">https://todashuta.github.io/blog/posts/hello-world/</guid>
+      <description>hugoに移行した。</description>
+      <content:encoded>
+        <![CDATA[<p>Hello World!</p>
+        <pre><code class="language-javascript">(function() {
+        'use strict';
+        console.log('code block');
+        })();
+        </code></pre>
+        <ul>
+        <li>foo</li>
+        <li>bar</li>
+        <li>baz</li>
+        </ul>
+        <p>hugoに移行した。</p>
+        ]]>
+      </content:encoded>
+      <pubDate>Sun, 08 Nov 2015 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
