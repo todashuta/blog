@@ -5,9 +5,20 @@
     <link>https://todashuta.github.io/blog/</link>
     <atom:link href="https://todashuta.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Shuta's Blog</description>
-    <lastBuildDate>Sun, 02 Jun 2024 06:23:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2024 06:30:43 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume v2.2.0</generator>
+    <item>
+      <title>Hello Lume!</title>
+      <link>https://todashuta.github.io/blog/posts/lume/</link>
+      <guid isPermaLink="false">https://todashuta.github.io/blog/posts/lume/</guid>
+      <description>Lumeに移行した。</description>
+      <content:encoded>
+        <![CDATA[<p>Lume（Deno製）に移行した。</p>
+        ]]>
+      </content:encoded>
+      <pubDate>Sun, 02 Jun 2024 15:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Hello Gatsby!</title>
       <link>https://todashuta.github.io/blog/posts/gatsby/</link>
