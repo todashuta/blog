@@ -2,35 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://todashuta.github.io/blog/</loc>
-    <lastmod>2024-06-02T09:39:12.423Z</lastmod>
+    <lastmod>2024-06-02T13:17:51.969Z</lastmod>
+  </url>
+  <url>
+    <loc>https://todashuta.github.io/blog/about/</loc>
+    <lastmod>2024-06-02T13:15:10.425Z</lastmod>
   </url>
   <url>
     <loc>https://todashuta.github.io/blog/archive/</loc>
-    <lastmod>2024-06-02T09:39:12.423Z</lastmod>
+    <lastmod>2024-06-02T13:17:51.967Z</lastmod>
   </url>
   <url>
     <loc>https://todashuta.github.io/blog/archive/gatsby/</loc>
-    <lastmod>2024-06-02T09:39:12.421Z</lastmod>
+    <lastmod>2024-06-02T13:17:51.965Z</lastmod>
   </url>
   <url>
     <loc>https://todashuta.github.io/blog/archive/git/</loc>
-    <lastmod>2024-06-02T09:39:12.421Z</lastmod>
+    <lastmod>2024-06-02T13:17:51.965Z</lastmod>
   </url>
   <url>
     <loc>https://todashuta.github.io/blog/archive/hugo/</loc>
-    <lastmod>2024-06-02T09:39:12.421Z</lastmod>
+    <lastmod>2024-06-02T13:17:51.965Z</lastmod>
   </url>
   <url>
     <loc>https://todashuta.github.io/blog/archive/lume/</loc>
-    <lastmod>2024-06-02T09:39:12.421Z</lastmod>
+    <lastmod>2024-06-02T13:17:51.965Z</lastmod>
   </url>
   <url>
     <loc>https://todashuta.github.io/blog/archive/mercurial/</loc>
-    <lastmod>2024-06-02T09:39:12.421Z</lastmod>
+    <lastmod>2024-06-02T13:17:51.965Z</lastmod>
   </url>
   <url>
     <loc>https://todashuta.github.io/blog/contact/</loc>
-    <lastmod>2024-06-02T09:38:04.200Z</lastmod>
+    <lastmod>2024-06-02T10:03:53.207Z</lastmod>
   </url>
   <url>
     <loc>https://todashuta.github.io/blog/posts/gatsby/</loc>
@@ -50,6 +54,6 @@
   </url>
   <url>
     <loc>https://todashuta.github.io/blog/readme/</loc>
-    <lastmod>2024-06-02T06:41:39.980Z</lastmod>
+    <lastmod>2024-06-02T10:03:53.205Z</lastmod>
   </url>
 </urlset>
