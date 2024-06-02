@@ -1,0 +1,16 @@
+lang: ja
+
+home:
+  welcome: "Welcome to Shuta's Blog!"
+
+menu_links: []
+extra_head: []
+
+# Metas plugin https://lume.land/plugins/metas/#description
+metas:
+  site: "Shuta's Diary"
+  description: "Shuta's Blog"
+  title: "=title"
+  image: "=image"
+  twitter: "@todashuta"
+  lang: ja
