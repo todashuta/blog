@@ -5,13 +5,13 @@
     <link>https://todashuta.github.io/blog/</link>
     <atom:link href="https://todashuta.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Shuta's Blog</description>
-    <lastBuildDate>Sun, 02 Jun 2024 13:17:51 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2024 13:56:04 GMT</lastBuildDate>
     <language>en</language>
     <generator>Lume v2.2.0</generator>
     <item>
       <title>Hello Lume!</title>
-      <link>https://todashuta.github.io/blog/posts/lume/</link>
-      <guid isPermaLink="false">https://todashuta.github.io/blog/posts/lume/</guid>
+      <link>https://todashuta.github.io/blog/posts/2024-06-02-lume/</link>
+      <guid isPermaLink="false">https://todashuta.github.io/blog/posts/2024-06-02-lume/</guid>
       <description>Lumeに移行した。</description>
       <content:encoded>
         <![CDATA[<p>Lume（Deno製）に移行した。</p>
@@ -21,8 +21,8 @@
     </item>
     <item>
       <title>Hello Gatsby!</title>
-      <link>https://todashuta.github.io/blog/posts/gatsby/</link>
-      <guid isPermaLink="false">https://todashuta.github.io/blog/posts/gatsby/</guid>
+      <link>https://todashuta.github.io/blog/posts/2020-08-29-gatsby/</link>
+      <guid isPermaLink="false">https://todashuta.github.io/blog/posts/2020-08-29-gatsby/</guid>
       <description>Gatsbyに移行した。</description>
       <content:encoded>
         <![CDATA[<p>Gatsbyに移行した。</p>
@@ -32,19 +32,19 @@
     </item>
     <item>
       <title>GitのアレをMercurialでやる</title>
-      <link>https://todashuta.github.io/blog/posts/study-mercurial/</link>
-      <guid isPermaLink="false">https://todashuta.github.io/blog/posts/study-mercurial/</guid>
+      <link>https://todashuta.github.io/blog/posts/2016-05-06-study-mercurial/</link>
+      <guid isPermaLink="false">https://todashuta.github.io/blog/posts/2016-05-06-study-mercurial/</guid>
       <description>Mercurial (hg) 勉強メモ</description>
       <content:encoded>
         <![CDATA[<p>Mercurial (hg) 勉強メモ</p>
-        <h2 id="%24-git-add-filename%3B-git-commit-%E3%82%92mercurial%E3%81%A7" tabindex="-1"><a href="https://todashuta.github.io/blog/posts/study-mercurial/#%24-git-add-filename%3B-git-commit-%E3%82%92mercurial%E3%81%A7" class="header-anchor"><code>$ git add filename; git commit</code> をMercurialで</a></h2>
+        <h2 id="%24-git-add-filename%3B-git-commit-%E3%82%92mercurial%E3%81%A7" tabindex="-1"><a href="https://todashuta.github.io/blog/posts/2016-05-06-study-mercurial/#%24-git-add-filename%3B-git-commit-%E3%82%92mercurial%E3%81%A7" class="header-anchor"><code>$ git add filename; git commit</code> をMercurialで</a></h2>
         <p>特定のファイルだけステージしてコミットしたいとき。</p>
         <pre><code class="language-shell">$ hg commit filename
         </code></pre>
         <p>サブコマンドcommitの引数にファイル名を与えることで可能。<br>
         (git add filename に相当する操作はないっぽい)</p>
         <hr>
-        <h2 id="%24-git-add--p-filename-%E3%82%92mercurial%E3%81%A7" tabindex="-1"><a href="https://todashuta.github.io/blog/posts/study-mercurial/#%24-git-add--p-filename-%E3%82%92mercurial%E3%81%A7" class="header-anchor"><code>$ git add -p filename</code> をMercurialで</a></h2>
+        <h2 id="%24-git-add--p-filename-%E3%82%92mercurial%E3%81%A7" tabindex="-1"><a href="https://todashuta.github.io/blog/posts/2016-05-06-study-mercurial/#%24-git-add--p-filename-%E3%82%92mercurial%E3%81%A7" class="header-anchor"><code>$ git add -p filename</code> をMercurialで</a></h2>
         <p>ファイルの一部分だけステージしたいとき (partial staging)</p>
         <pre><code class="language-shell">$ hg commit --interactive filename
         </code></pre>
@@ -56,8 +56,8 @@
     </item>
     <item>
       <title>Hello World!</title>
-      <link>https://todashuta.github.io/blog/posts/hello-world/</link>
-      <guid isPermaLink="false">https://todashuta.github.io/blog/posts/hello-world/</guid>
+      <link>https://todashuta.github.io/blog/posts/2015-11-08-hello-world/</link>
+      <guid isPermaLink="false">https://todashuta.github.io/blog/posts/2015-11-08-hello-world/</guid>
       <description>hugoに移行した。</description>
       <content:encoded>
         <![CDATA[<p>Hello World!</p>
