@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://todashuta.github.io/blog/sitemap.xml
